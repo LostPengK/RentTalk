@@ -12,7 +12,7 @@ class SourceVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "红黑榜"
         // Do any additional setup after loading the view.
     }
 

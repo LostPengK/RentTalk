@@ -9,7 +9,35 @@
 import UIKit
 
 class TCaoHeader: UIView {
-
+    
+    @IBOutlet weak var backImageV: UIImageView!
+    @IBOutlet weak var headerImageV: UIImageView!
+    
+    override init(frame: CGRect){
+        super.init(frame: frame)
+        configData()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        configData()
+    }
+    
+    func  configData() {
+    
+    }
+    
+    override func awakeFromNib() {
+        
+    }
+    
+    static func newInstance() -> TCaoHeader? {
+        let nibView = Bundle.main.loadNibNamed( "TCaoHeader" , owner: nil, options: nil)
+        if let view = nibView?.first as? TCaoHeader {
+            return view
+        }
+        return nil
+    }
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.

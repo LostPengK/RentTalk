@@ -36,14 +36,12 @@ class TCaoVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
         mainTable.contentInset = .init(top: 250, left: 0, bottom: 0, right: 0)
         headerView = TCaoHeader.newInstance()
         headerView.frame = .init(x: 0, y: -250, width: self.view.frame.size.width, height: 250)
-        headerView.backgroundColor = .red
         mainTable.addSubview(headerView)
         mainTable.register(UITableViewCell.self , forCellReuseIdentifier: "cell")
         
         searchView = SearchView.newInstance()
         searchView.frame = .init(x: 0, y: 0, width: self.view.frame.size.width, height: 64)
         view.addSubview(searchView)
-        searchView.backgroundColor = UIColor.clear
         // Do any additional setup after loading the view.
     }
     
@@ -58,10 +56,8 @@ class TCaoVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        print(scrollView.contentOffset)
         
         view.endEditing(true)
-        
         if scrollView.contentOffset.y <= -250 {
             headerView?.frame = .init(x: 0, y: scrollView.contentOffset.y, width: self.view.frame.size.width, height: -scrollView.contentOffset.y)
             searchView?.setTextFieldMaxWidth(max: true)

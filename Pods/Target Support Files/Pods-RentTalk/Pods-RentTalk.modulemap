@@ -1,0 +1,6 @@
+framework module Pods_RentTalk {
+  umbrella header "Pods-RentTalk-umbrella.h"
+
+  export *
+  module * { export * }
+}

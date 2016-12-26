@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class SearchView: UIView {
 
@@ -18,7 +19,6 @@ class SearchView: UIView {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        
     }
     
     override func awakeFromNib() {
@@ -42,7 +42,17 @@ class SearchView: UIView {
         return nil
     }
     
-    
+    public func setTextFieldMaxWidth(max: Bool) -> Void {
+        
+        let width = max ? self.frame.size.width - 20 - 50 : 10
+        inputView?.snp.updateConstraints({ make in
+            make.left.equalToSuperview().offset(width)
+        })
+        
+        UIView.animate(withDuration: 0.35) { 
+            self.layoutIfNeeded()
+        }
+    }
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180421E48A920AAC3E6F9B18 /* Pods_RentTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A74F1660CF753C6D503FBF /* Pods_RentTalkUITests.framework */; };
 		6B9454F71DF5A32A0071DF60 /* TCaoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9454F61DF5A32A0071DF60 /* TCaoHeader.swift */; };
 		6B9454F91DF5A40F0071DF60 /* TCaoHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B9454F81DF5A40F0071DF60 /* TCaoHeader.xib */; };
 		6B9B4B841DF7152C00E2B487 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9B4B831DF7152C00E2B487 /* SearchView.swift */; };
@@ -20,6 +21,8 @@
 		6BFCFFCF1DE9664100C5AC0F /* TCaoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCFFCE1DE9664100C5AC0F /* TCaoVC.swift */; };
 		6BFCFFD11DE9665D00C5AC0F /* SourceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCFFD01DE9665D00C5AC0F /* SourceVC.swift */; };
 		6BFCFFD51DE9678900C5AC0F /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCFFD41DE9678900C5AC0F /* MeVC.swift */; };
+		94FCF4BD43EBAD6D00390AE1 /* Pods_RentTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A122CBA251F278A63022976C /* Pods_RentTalk.framework */; };
+		B43E6E1C5EE21273FD59D67A /* Pods_RentTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E475AF1DE139F6E2469DB57 /* Pods_RentTalkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47310A69DCD9ECADF15F8C16 /* Pods-RentTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentTalkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RentTalkUITests/Pods-RentTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B05DD532FD369DAABBC0AA7 /* Pods-RentTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RentTalk/Pods-RentTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		67AAC0EF0FE99267B4A3FDD6 /* Pods-RentTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentTalkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RentTalkUITests/Pods-RentTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6B9454F61DF5A32A0071DF60 /* TCaoHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCaoHeader.swift; sourceTree = "<group>"; };
 		6B9454F81DF5A40F0071DF60 /* TCaoHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCaoHeader.xib; sourceTree = "<group>"; };
 		6B9B4B831DF7152C00E2B487 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
@@ -59,6 +65,12 @@
 		6BFCFFCE1DE9664100C5AC0F /* TCaoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCaoVC.swift; sourceTree = "<group>"; };
 		6BFCFFD01DE9665D00C5AC0F /* SourceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceVC.swift; sourceTree = "<group>"; };
 		6BFCFFD41DE9678900C5AC0F /* MeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		6CE09122F20EED7C6ECC7A6D /* Pods-RentTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-RentTalk/Pods-RentTalk.release.xcconfig"; sourceTree = "<group>"; };
+		874DB8DB9897FBCBE2BB611A /* Pods-RentTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentTalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RentTalkTests/Pods-RentTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E475AF1DE139F6E2469DB57 /* Pods_RentTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RentTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94163170A6D7FEF1B82A8896 /* Pods-RentTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentTalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RentTalkTests/Pods-RentTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A122CBA251F278A63022976C /* Pods_RentTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RentTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A74F1660CF753C6D503FBF /* Pods_RentTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RentTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94FCF4BD43EBAD6D00390AE1 /* Pods_RentTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43E6E1C5EE21273FD59D67A /* Pods_RentTalkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180421E48A920AAC3E6F9B18 /* Pods_RentTalkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +160,8 @@
 				6BD660F91DBE3CDC00D1FE6D /* RentTalkTests */,
 				6BD661041DBE3CDC00D1FE6D /* RentTalkUITests */,
 				6BD660E11DBE3CDC00D1FE6D /* Products */,
+				8BD7E069ADDB05968FBD5B4D /* Frameworks */,
+				E20CA49719ECC0F72410196D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +208,29 @@
 			path = RentTalkUITests;
 			sourceTree = "<group>";
 		};
+		8BD7E069ADDB05968FBD5B4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A122CBA251F278A63022976C /* Pods_RentTalk.framework */,
+				8E475AF1DE139F6E2469DB57 /* Pods_RentTalkTests.framework */,
+				B7A74F1660CF753C6D503FBF /* Pods_RentTalkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20CA49719ECC0F72410196D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B05DD532FD369DAABBC0AA7 /* Pods-RentTalk.debug.xcconfig */,
+				6CE09122F20EED7C6ECC7A6D /* Pods-RentTalk.release.xcconfig */,
+				94163170A6D7FEF1B82A8896 /* Pods-RentTalkTests.debug.xcconfig */,
+				874DB8DB9897FBCBE2BB611A /* Pods-RentTalkTests.release.xcconfig */,
+				67AAC0EF0FE99267B4A3FDD6 /* Pods-RentTalkUITests.debug.xcconfig */,
+				47310A69DCD9ECADF15F8C16 /* Pods-RentTalkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BD6610A1DBE3CDC00D1FE6D /* Build configuration list for PBXNativeTarget "RentTalk" */;
 			buildPhases = (
+				AED88857E2D2D94DF2EBED33 /* [CP] Check Pods Manifest.lock */,
 				6BD660DC1DBE3CD900D1FE6D /* Sources */,
 				6BD660DD1DBE3CD900D1FE6D /* Frameworks */,
 				6BD660DE1DBE3CD900D1FE6D /* Resources */,
+				9B8F69621DEB566ECF9EE651 /* [CP] Embed Pods Frameworks */,
+				3A10878E9C0E4AFACB305635 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BD6610D1DBE3CDC00D1FE6D /* Build configuration list for PBXNativeTarget "RentTalkTests" */;
 			buildPhases = (
+				00037C6E31E9FC3CEB2E02EB /* [CP] Check Pods Manifest.lock */,
 				6BD660F21DBE3CDC00D1FE6D /* Sources */,
 				6BD660F31DBE3CDC00D1FE6D /* Frameworks */,
 				6BD660F41DBE3CDC00D1FE6D /* Resources */,
+				9F50107F62BEA9F90137A381 /* [CP] Embed Pods Frameworks */,
+				C3B0968A5A9A1C304433514D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BD661101DBE3CDC00D1FE6D /* Build configuration list for PBXNativeTarget "RentTalkUITests" */;
 			buildPhases = (
+				540E9A4C0E2A61F7BEF24CC6 /* [CP] Check Pods Manifest.lock */,
 				6BD660FD1DBE3CDC00D1FE6D /* Sources */,
 				6BD660FE1DBE3CDC00D1FE6D /* Frameworks */,
 				6BD660FF1DBE3CDC00D1FE6D /* Resources */,
+				CC98589AD6A09BAECA6E24ED /* [CP] Copy Pods Resources */,
+				137695FD323FC633C375A735 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,23 +303,26 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = pengkang;
 				TargetAttributes = {
 					6BD660DF1DBE3CD900D1FE6D = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 5GT882DXEB;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					6BD660F51DBE3CDC00D1FE6D = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 5GT882DXEB;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 6BD660DF1DBE3CD900D1FE6D;
 					};
 					6BD661001DBE3CDC00D1FE6D = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 5GT882DXEB;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 6BD660DF1DBE3CD900D1FE6D;
 					};
@@ -324,6 +376,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00037C6E31E9FC3CEB2E02EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		137695FD323FC633C375A735 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RentTalkUITests/Pods-RentTalkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A10878E9C0E4AFACB305635 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RentTalk/Pods-RentTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		540E9A4C0E2A61F7BEF24CC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B8F69621DEB566ECF9EE651 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RentTalk/Pods-RentTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F50107F62BEA9F90137A381 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RentTalkTests/Pods-RentTalkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AED88857E2D2D94DF2EBED33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B0968A5A9A1C304433514D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RentTalkTests/Pods-RentTalkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC98589AD6A09BAECA6E24ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RentTalkUITests/Pods-RentTalkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6BD660DC1DBE3CD900D1FE6D /* Sources */ = {
@@ -408,6 +598,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -436,6 +627,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -457,6 +649,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -477,13 +670,16 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		6BD6610B1DBE3CDC00D1FE6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B05DD532FD369DAABBC0AA7 /* Pods-RentTalk.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 5GT882DXEB;
@@ -498,7 +694,9 @@
 		};
 		6BD6610C1DBE3CDC00D1FE6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE09122F20EED7C6ECC7A6D /* Pods-RentTalk.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 5GT882DXEB;
@@ -513,6 +711,7 @@
 		};
 		6BD6610E1DBE3CDC00D1FE6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94163170A6D7FEF1B82A8896 /* Pods-RentTalkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +727,7 @@
 		};
 		6BD6610F1DBE3CDC00D1FE6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874DB8DB9897FBCBE2BB611A /* Pods-RentTalkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -543,6 +743,7 @@
 		};
 		6BD661111DBE3CDC00D1FE6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67AAC0EF0FE99267B4A3FDD6 /* Pods-RentTalkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 5GT882DXEB;
@@ -557,6 +758,7 @@
 		};
 		6BD661121DBE3CDC00D1FE6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47310A69DCD9ECADF15F8C16 /* Pods-RentTalkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 5GT882DXEB;

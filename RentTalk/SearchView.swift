@@ -23,9 +23,10 @@ class SearchView: UIView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
         searchTextField.layer.borderColor = UIColor.lightGray.cgColor
         searchTextField.layer.borderWidth = 1.0
+        backgroundColor = RTDefine().defaultColor
+        self.alpha = 0.60;
     }
     
     override func layoutSubviews() {

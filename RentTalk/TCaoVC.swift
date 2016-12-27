@@ -47,7 +47,8 @@ class TCaoVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
+        navigationController?.setNavigationBarHidden(true, animated: true)
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -60,9 +61,13 @@ class TCaoVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
         view.endEditing(true)
         if scrollView.contentOffset.y <= -250 {
             headerView?.frame = .init(x: 0, y: scrollView.contentOffset.y, width: self.view.frame.size.width, height: -scrollView.contentOffset.y)
-            searchView?.setTextFieldMaxWidth(max: true)
         }  else {
             headerView?.frame = .init(x: 0, y: -250, width: self.view.frame.size.width, height: 250)
+        }
+        
+        if scrollView.contentOffset.y <= -250 + 50 {
+            searchView?.setTextFieldMaxWidth(max: true)
+        }  else {
             searchView?.setTextFieldMaxWidth(max: false)
         }
         
@@ -73,9 +78,10 @@ class TCaoVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UITableViewCell! = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text =  String(describing: dataSource.object(at: indexPath.row))
-        let randon:Float = Float(arc4random())
-        let floatValue = randon/255.0
-        cell.backgroundColor = UIColor.init(colorLiteralRed: floatValue , green: floatValue, blue: floatValue, alpha: 0.8)
+        let red = Float(arc4random()%255)/255.0
+        let green = Float(arc4random()%255)/255.0
+        let blue = Float(arc4random()%255)/255.0
+        cell.backgroundColor = UIColor.init(colorLiteralRed: red , green: green, blue: blue, alpha: 0.8)
         cell.accessoryType = .disclosureIndicator
         return cell
     }
@@ -91,10 +97,13 @@ class TCaoVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         print("this is a action","dasdadasd")
+        
+        let detail = TCaoDetailVC()
+        navigationController?.pushViewController(detail, animated: true)
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        
+        super.viewDidAppear(animated)
     }
     
 }

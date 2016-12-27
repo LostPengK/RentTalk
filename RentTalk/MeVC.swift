@@ -8,11 +8,21 @@
 
 import UIKit
 
-class MeVC: UITableViewController {
+class MeVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
+    var dataSource: NSMutableArray!
+    @IBOutlet weak var mainTable: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "个人中心"
+        navigationController?.isNavigationBarHidden = true
+        mainTable.register(UITableViewCell.self , forCellReuseIdentifier: "cell")
 
+        dataSource = NSMutableArray.init()
+        dataSource.add(["我的吐槽","我的评论"])
+        dataSource.add(["我喜欢的","我讨厌的"])
+        dataSource.add(["设置"])
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -27,14 +37,22 @@ class MeVC: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
+    func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return dataSource.count
     }
 
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        let arr:NSArray! = dataSource!.object(at: section) as? NSArray
+        return arr.count
+    }
+    
+    func  tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell: UITableViewCell! = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let arr:NSArray! = dataSource!.object(at: indexPath.section) as? NSArray
+        cell.textLabel?.text = arr.object(at: indexPath.row) as? String
+        return cell
     }
 
     /*

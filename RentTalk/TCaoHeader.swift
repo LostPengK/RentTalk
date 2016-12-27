@@ -24,11 +24,11 @@ class TCaoHeader: UIView {
     }
     
     func  configData() {
-    
+        backgroundColor = RTDefine().defaultColor
     }
     
     override func awakeFromNib() {
-        
+        configData()
     }
     
     static func newInstance() -> TCaoHeader? {

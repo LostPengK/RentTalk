@@ -45,7 +45,7 @@ class SearchView: UIView {
     public func setTextFieldMaxWidth(max: Bool) -> Void {
         
         let width = max ? self.frame.size.width - 20 - 50 : 10
-        inputView?.snp.updateConstraints({ make in
+        searchTextField?.snp.updateConstraints({ make in
             make.left.equalToSuperview().offset(width)
         })
         

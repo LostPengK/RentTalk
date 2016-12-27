@@ -15,8 +15,9 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="25a-gO-X6Z">
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="25a-gO-X6Z">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="abu-Gd-1qI">
                     <rect key="frame" x="157" y="109.5" width="60" height="60"/>
@@ -32,7 +33,6 @@
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="25a-gO-X6Z" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1wm-9Y-D5K"/>
                 <constraint firstItem="25a-gO-X6Z" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4km-6r-zMx"/>

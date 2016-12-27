@@ -12,6 +12,7 @@
 		6B9454F91DF5A40F0071DF60 /* TCaoHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B9454F81DF5A40F0071DF60 /* TCaoHeader.xib */; };
 		6B9B4B841DF7152C00E2B487 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9B4B831DF7152C00E2B487 /* SearchView.swift */; };
 		6B9B4B861DF7156100E2B487 /* SearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B9B4B851DF7156100E2B487 /* SearchView.xib */; };
+		6BC85BFA1E116A74005A42AF /* RTDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC85BF91E116A74005A42AF /* RTDefine.swift */; };
 		6BD660E41DBE3CDC00D1FE6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD660E31DBE3CDC00D1FE6D /* AppDelegate.swift */; };
 		6BD660EB1DBE3CDC00D1FE6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD660E91DBE3CDC00D1FE6D /* Main.storyboard */; };
 		6BD660ED1DBE3CDC00D1FE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD660EC1DBE3CDC00D1FE6D /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		6B9454F81DF5A40F0071DF60 /* TCaoHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCaoHeader.xib; sourceTree = "<group>"; };
 		6B9B4B831DF7152C00E2B487 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		6B9B4B851DF7156100E2B487 /* SearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchView.xib; sourceTree = "<group>"; };
+		6BC85BF91E116A74005A42AF /* RTDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTDefine.swift; sourceTree = "<group>"; };
 		6BD660E01DBE3CDC00D1FE6D /* RentTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD660E31DBE3CDC00D1FE6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BD660EA1DBE3CDC00D1FE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				6B9454F11DF5A2CB0071DF60 /* Source */,
 				6B9454F21DF5A2D20071DF60 /* Me */,
 				6BD660E31DBE3CDC00D1FE6D /* AppDelegate.swift */,
+				6BC85BF91E116A74005A42AF /* RTDefine.swift */,
 				6BD660E91DBE3CDC00D1FE6D /* Main.storyboard */,
 				6BD660EC1DBE3CDC00D1FE6D /* Assets.xcassets */,
 				6BD660EE1DBE3CDC00D1FE6D /* LaunchScreen.storyboard */,
@@ -520,6 +523,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BC85BFA1E116A74005A42AF /* RTDefine.swift in Sources */,
 				6BFCFFD51DE9678900C5AC0F /* MeVC.swift in Sources */,
 				6B9454F71DF5A32A0071DF60 /* TCaoHeader.swift in Sources */,
 				6BD660E41DBE3CDC00D1FE6D /* AppDelegate.swift in Sources */,

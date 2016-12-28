@@ -8,11 +8,16 @@
 
 import UIKit
 
-class SourceVC: UIViewController {
+class SourceVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
+    var dataSource: NSMutableArray!
+    @IBOutlet weak var mainTable: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "红黑榜"
+        
+        dataSource = NSMutableArray.init()
         // Do any additional setup after loading the view.
     }
 
@@ -20,16 +25,22 @@ class SourceVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func numberOfSections(in tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return dataSource!.count
     }
-    */
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+        let arr:NSArray! = dataSource!.object(at: section) as? NSArray
+        return arr.count
+    }
+    
+    func  tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell: UITableViewCell! = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let arr:NSArray! = dataSource!.object(at: indexPath.section) as? NSArray
+        cell.textLabel?.text = arr.object(at: indexPath.row) as? String
+        return cell
+    }
 
 }

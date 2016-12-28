@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		180421E48A920AAC3E6F9B18 /* Pods_RentTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A74F1660CF753C6D503FBF /* Pods_RentTalkUITests.framework */; };
+		6B2687E51E12632900C28B75 /* TCaoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2687E41E12632900C28B75 /* TCaoDetailVC.swift */; };
 		6B9454F71DF5A32A0071DF60 /* TCaoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9454F61DF5A32A0071DF60 /* TCaoHeader.swift */; };
 		6B9454F91DF5A40F0071DF60 /* TCaoHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B9454F81DF5A40F0071DF60 /* TCaoHeader.xib */; };
 		6B9B4B841DF7152C00E2B487 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9B4B831DF7152C00E2B487 /* SearchView.swift */; };
@@ -47,6 +48,7 @@
 		47310A69DCD9ECADF15F8C16 /* Pods-RentTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentTalkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RentTalkUITests/Pods-RentTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5B05DD532FD369DAABBC0AA7 /* Pods-RentTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RentTalk/Pods-RentTalk.debug.xcconfig"; sourceTree = "<group>"; };
 		67AAC0EF0FE99267B4A3FDD6 /* Pods-RentTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentTalkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RentTalkUITests/Pods-RentTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B2687E41E12632900C28B75 /* TCaoDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCaoDetailVC.swift; sourceTree = "<group>"; };
 		6B9454F61DF5A32A0071DF60 /* TCaoHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCaoHeader.swift; sourceTree = "<group>"; };
 		6B9454F81DF5A40F0071DF60 /* TCaoHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCaoHeader.xib; sourceTree = "<group>"; };
 		6B9B4B831DF7152C00E2B487 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				6BFCFFCE1DE9664100C5AC0F /* TCaoVC.swift */,
+				6B2687E41E12632900C28B75 /* TCaoDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -523,6 +526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B2687E51E12632900C28B75 /* TCaoDetailVC.swift in Sources */,
 				6BC85BFA1E116A74005A42AF /* RTDefine.swift in Sources */,
 				6BFCFFD51DE9678900C5AC0F /* MeVC.swift in Sources */,
 				6B9454F71DF5A32A0071DF60 /* TCaoHeader.swift in Sources */,
